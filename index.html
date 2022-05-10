@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="icon" type="image/x-icon" href="./imagens/jogar.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <video id="video1"class="video" preload="auto" loop src="./Lil Peep - lil jeep (Official Video).mp4"
+            poster="./imagens/poster.png"></video>
+        <div class="controls">
+            <img class="btn" onclick="goBack()" src="./imagens/retroceder.png">
+            <img class="btn" onclick="playPause()" src="./imagens/jogar.png">
+            <img class="btn" onclick="advance()" src="./imagens/avancar.png">
+            <img class="btn" onclick="stop()" src="./imagens/pare.png">
+            <img class="btn" onclick="FullScream()" src="./imagens/expandir.png">
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
